@@ -41,8 +41,25 @@ a{
     justify-content: center;
 }
 
+.input-arr{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.option{
+    height: 40px;
+    border-radius: 5px;
+}
+.button{
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
 .input-container{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 10px;
@@ -78,7 +95,12 @@ a{
         font-size: 1.2rem;
     }
     
-
+    .selection-wrapper{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
     .input-container{
         flex-wrap: wrap;
     }
