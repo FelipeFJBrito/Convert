@@ -1,0 +1,125 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.home-wrapper{
+    background: linear-gradient(to bottom right, rgb(255, 255, 80), purple);
+  
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    padding-top: 40px;
+    color: white;
+    text-shadow: 2px 2px 6px #343131;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav-container ul{
+    display: flex;
+    align-items: center;
+    column-gap: 15%;
+}
+.home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    justify-content: center;
+}
+
+.input-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.display-container{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 20px;
+    padding: 20px;
+    width: 400px;
+    border-radius: 15px;
+    background: white;
+    color: rgb(26, 25, 25);
+}
+
+.array-display{
+    font-size: 1.5rem;
+}
+.steps-display{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.array-reverse{
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 500px){
+    .nav-container{
+        font-size: 1.2rem;
+    }
+    
+
+    .input-container{
+        flex-wrap: wrap;
+    }
+    .display-container{
+        width: 300px;
+        padding: 0 20px;
+        padding: 20px 20px;
+        
+    }
+    
+    .array-display{
+        font-size: 1.1rem;
+    }
+    .steps-display{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    
+    .array-reverse{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .nav-container{
+        font-size: 1.2rem;
+    }
+
+    .display-container{
+        width: 250px;
+    }
+    
+    .array-display{
+        font-size: 1.2rem;
+    }
+    .steps-display{
+        font-size: 0.95rem;
+        font-weight: 700;
+    }
+    
+    .array-reverse{
+        font-size: 1.2rem;
+    }
+}
